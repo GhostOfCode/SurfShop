@@ -1,0 +1,49 @@
+#debug: false
+#
+#server:
+#  port: 8080
+#  error:
+#    include-message: always
+#    whitelabel:
+#      enabled: false
+#  servlet:
+#    encoding:
+#      charset: utf-8
+#    context-path: /
+#
+#spring:
+#  application:
+#    name: demoShop
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://jmpp.component-m.ru:3306/demoshop?verifyServerCertificate=false&useSSL=false&requireSSL=false&serverTimezone=Europe/Moscow&useLegacyDatetimeCode=false
+#    username: JMPP
+#    password: ff99sx232323
+#  jpa:
+#    generate-ddl: true
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        highlight_sql: true
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#        hbm2ddl:
+#          charset_name: UTF-8
+#    open-in-view: false
+#  devtools:
+#    livereload:
+#      enabled: true
+#    add-properties: true
+#  web:
+#    locale: ru_RU
+#  mvc:
+#    hiddenmethod:
+#      filter:
+#        enabled: true
+#
+#logging:
+#  charset:
+#    console: UTF-8
+#debug: true
