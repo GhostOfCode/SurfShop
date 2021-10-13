@@ -7,6 +7,7 @@ import com.demoshop.demoshop.repository.ProductTypeRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.HashMap;
 import java.util.List;
@@ -33,16 +34,11 @@ public class IndexController {
         return "index";
     }
 
-    @GetMapping("/temp")
-    public String temp(Model model){
-        return "temp";
+    @GetMapping("/product")
+    public String product(@RequestParam("id") Long id, Model model){
+        Product product = productRepository.findById(id).orElse(null);
+        model.addAttribute("product", product);
+        return "product";
     }
-
-    /**
-     * Проверка работы
-     */
-    // Another one change
-    // проверка еще раз
-  // Конфликт решен
 
 }
