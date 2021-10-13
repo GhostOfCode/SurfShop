@@ -38,4 +38,8 @@ public class IndexController {
         return "temp";
     }
 
+    /**
+     * Проверка работы
+     */
+
 }
