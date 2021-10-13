@@ -42,6 +42,7 @@ public class IndexController {
      * Проверка работы
      */
     // Another one change
-    // ONE TOO MANY IS NEVER ENOUGH
+    // проверка еще раз
+  // Конфликт решен
 
 }
