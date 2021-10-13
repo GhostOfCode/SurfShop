@@ -43,7 +43,6 @@ public class IndexController {
      */
     // Another one change
     // проверка еще раз
-
-
+  // Конфликт решен
 
 }
